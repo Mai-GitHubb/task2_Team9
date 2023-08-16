@@ -1,0 +1,87 @@
+.categories-container{
+    padding: 0 3vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    margin: 10px 0px;
+}
+
+.categories-container::-webkit-scrollbar{
+    display: none;
+}
+
+.categories-card{
+    flex: 0 0 auto;
+    width: FIT-CONTENT;
+    height: FIT-CONTENT;
+    margin-right: 3vw;
+    margin-top: 40px;
+}
+.categories-card:nth-child(){
+    margin-right: 0vw;
+}
+
+.categories-image{
+    position: relative;
+    width: fit-content;
+    height:fit-content;
+    overflow: hidden;
+}
+
+.categories-thumb{
+    width: 100%;
+    height: 350px;
+    object-fit:cover;
+}
+
+.categories-info{
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.categories-brand{
+    text-transform: uppercase;
+    color:black;
+}
+
+.categories-short-des{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    opacity: 0.5;
+    text-transform: capitalize;
+    margin: 5px 0;
+}
+
+.pre-btn, .nxt-btn{
+    border: none;
+    width: 4vw;
+    height: 495px;
+    position: absolute;
+    top: 643px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    cursor: pointer;
+    z-index: 8;
+}
+
+.pre-btn{
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.nxt-btn{
+    right: 0;
+}
+
+.pre-btn img, .nxt-btn img{
+    opacity: 0.2;
+}
+
+.pre-btn:hover img, .nxt-btn:hover img{
+    opacity: 1;
+}

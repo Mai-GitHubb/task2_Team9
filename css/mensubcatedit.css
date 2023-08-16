@@ -1,0 +1,41 @@
+img
+{
+    display: inline;
+}
+section
+{
+    display: inline-block;
+}
+.product
+{
+    width:30%;
+    display: inline-block;
+}
+
+.prodimg:hover
+{
+    opacity: 0.3;
+    box-shadow: 50px;
+}
+.prodimg {
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 70px;
+  }
+  
+  .prodimg img {
+    transition: transform .5s ease;
+  }
+  
+    .prodimg:hover img {
+    transform: scale(1.5);
+  }
+.shoetext
+{
+    margin-left: 50px;
+}
+.disc
+{
+    color: rgb(197, 197, 121);
+}
