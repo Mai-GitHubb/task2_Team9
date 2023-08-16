@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Men Home Page</title>
+    <link rel="stylesheet" href="css/SlideShow.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/menMain.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <script src="js/nav.js"></script>
+    </nav>
+
+    <center>
+      <!--image slider start-->
+      <div class="slider">
+        <div class="slides">
+          <!--radio buttons start-->
+          <input type="radio" name="radio-btn" id="radio1" />
+          <input type="radio" name="radio-btn" id="radio2" />
+          <input type="radio" name="radio-btn" id="radio3" />
+          <input type="radio" name="radio-btn" id="radio4" />
+          <!--radio buttons end-->
+          <!--slide images start-->
+          <div class="slide first">
+            <img
+              src="images/15aug.jpg"
+              alt="INDEPENDENCE DAY SALE - UPTO 70% OFF"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="images/MenSale1.jpg"
+              alt="CASUAL SPORTS SHOES - 50% OFF"
+            />
+          </div>
+          <div class="slide">
+            <img src="images/MenSale2.jpg" alt="" />
+          </div>
+          <div class="slide">
+            <img src="images/MenSale3.jpg" alt="" />
+          </div>
+          <!--slide images end-->
+          <!--automatic navigation start-->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+          <!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+        <!--manual navigation end-->
+      </div>
+      <script src="js/slideShow.js"></script>
+      <!--image slider end-->
+      <div class="categories-container">
+        <div class="categories-card">
+          <div class="categories-image">
+            <a href="#sports">
+              <img
+                src="images/menSports.jpg"
+                class="categories-thumb"
+                style="border-radius: 15px"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="categories-info">
+            <h2 class="categories-brand">SPORTS</h2>
+          </div>
+        </div>
+        <div class="categories-card">
+          <div class="categories-image">
+            <img
+              src="images/menBoots.jpg"
+              class="categories-thumb"
+              style="border-radius: 15px"
+              alt=""
+            />
+          </div>
+          <div class="categories-info">
+            <h2 class="categories-brand">BOOTS</h2>
+          </div>
+        </div>
+        <div class="categories-card">
+          <div class="categories-image">
+            <img
+              src="images/menFormals.jpg"
+              class="categories-thumb"
+              style="border-radius: 15px"
+              alt=""
+            />
+          </div>
+          <div class="categories-info">
+            <h2 class="categories-brand">Formals</h2>
+          </div>
+        </div>
+        <div class="categories-card">
+          <div class="categories-image">
+            <img
+              src="images/menSneakers.jpg"
+              class="categories-thumb"
+              style="border-radius: 15px"
+              alt=""
+            />
+          </div>
+          <div class="categories-info">
+            <h2 class="categories-brand">SNEAKERS</h2>
+          </div>
+        </div>
+        <div class="categories-card">
+          <div class="categories-image">
+            <img
+              src="images/menBoots.jpg"
+              class="categories-thumb"
+              style="border-radius: 15px"
+              alt=""
+            />
+          </div>
+          <div class="categories-info">
+            <h2 class="categories-brand">CASUAL</h2>
+          </div>
+        </div>
+      </div>
+
+      <button class="pre-btn"><img src="img/arrow.png" alt="" /></button>
+      <button class="nxt-btn"><img src="img/arrow.png" alt="" /></button>
+      <script src="js/mensMain.js"></script>
+    </center>
+
+    <footer></footer>
+    <script src="js/footer.js"></script>
+  </body>
+</html>
